@@ -1,0 +1,145 @@
+@import "./colors";
+
+@each $color, $key in $gray {
+  .bg-gray-#{$color} {
+    background-color: $key;
+  }
+  .txt-gray-#{$color} {
+    color: $key;
+  }
+  .undr-gray-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $red {
+  .bg-red-#{$color} {
+    background-color: $key;
+  }
+  .txt-red-#{$color} {
+    color: $key;
+  }
+  .undr-red-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $orange {
+  .bg-orange-#{$color} {
+    background-color: $key;
+  }
+  .txt-orange-#{$color} {
+    color: $key;
+  }
+  .undr-orange-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $yellow {
+  .bg-yellow-#{$color} {
+    background-color: $key;
+  }
+  .txt-yellow-#{$color} {
+    color: $key;
+  }
+  .undr-yellow-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $lime {
+  .bg-lime-#{$color} {
+    background-color: $key;
+  }
+  .txt-lime-#{$color} {
+    color: $key;
+  }
+  .undr-lime-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $green {
+  .bg-green-#{$color} {
+    background-color: $key;
+  }
+  .txt-green-#{$color} {
+    color: $key;
+  }
+  .undr-green-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $cyan {
+  .bg-cyan-#{$color} {
+    background-color: $key;
+  }
+  .txt-cyan-#{$color} {
+    color: $key;
+  }
+  .undr-cyan-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $blue {
+  .bg-blue-#{$color} {
+    background-color: $key;
+  }
+  .txt-blue-#{$color} {
+    color: $key;
+  }
+  .undr-blue-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $indigo {
+  .bg-indigo-#{$color} {
+    background-color: $key;
+  }
+  .txt-indigo-#{$color} {
+    color: $key;
+  }
+  .undr-indigo-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $violet {
+  .bg-violet-#{$color} {
+    background-color: $key;
+  }
+  .txt-violet-#{$color} {
+    color: $key;
+  }
+  .undr-violet-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $fuchsia {
+  .bg-fuchsia-#{$color} {
+    background-color: $key;
+  }
+  .txt-fuchsia-#{$color} {
+    color: $key;
+  }
+  .undr-fuchsia-#{$color} {
+    text-decoration-color: $key;
+  }
+}
+
+@each $color, $key in $pink {
+  .bg-pink-#{$color} {
+    background-color: $key;
+  }
+  .txt-pink-#{$color} {
+    color: $key;
+  }
+  .undr-pink-#{$color} {
+    text-decoration-color: $key;
+  }
+}
